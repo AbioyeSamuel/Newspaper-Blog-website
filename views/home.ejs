@@ -1,0 +1,54 @@
+<%- include("partials/header"); -%>
+
+<div class="welcome">
+  <h1>Welcome to Sam's News</h1>
+  <p> <%= homeContent %> </p>
+</div>
+
+<div class="image">
+  <img class="welcome-image" src="image/newsf.jpg" alt="welcome me image">
+</div>
+
+<section class="white-section" id="news">
+  <div class="row">
+    <div class="pricing-column col-lg-4 col-md-6">
+      <div class="card ">
+        <div class="card-header ">
+          <h3>Business</h3>
+          <p>Catch the latest on the stock market and business activities happening all across the globe. We've got you covered. </p>
+        </div>
+        <div class="card-body d-grid gap-2">
+          <img class="home-img" src="image/businessimage.jpg" alt="" />
+        </div>
+      </div>
+    </div>
+
+    <div class="pricing-column col-lg-4 col-md-6">
+      <div class="card">
+        <div class="card-header">
+          <h3>Sport</h3>
+          <p>Live update, news, deep dives, insider access, exclusive podcasts and more. We provide 24/7 intriguing sport content.</p>
+        </div>
+        <div class="card-body d-grid gap-2">
+          <img class="home-img" src="image/sportimage.jpg" alt="">
+        </div>
+      </div>
+    </div>
+
+    <div class="pricing-column col-lg-4 col-md-6">
+      <div class="card">
+        <div class="card-header">
+          <h3>Technology</h3>
+          <p>Progress in digital tech from data, robotics, 3D printing & AI is at the core of Sandvik. Keep up with the latest technological innovation in the 21st century.</p>
+        </div>
+        <div class="card-body d-grid gap-2">
+          <img class="home-img" src="image/techimage.jpg" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+
+<%- include("partials/footer"); -%>

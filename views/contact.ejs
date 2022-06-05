@@ -1,0 +1,25 @@
+<%- include("partials/header"); -%>
+<h1>Contact</h1>
+<p> <%= contactContent %> </p>
+
+<div class="contact">
+  <form action="mailto:olaoluwaabioye99@gmail.com" method="post" enctype="text/plain">
+    <div class="form-group">
+      <label>Full Name</label>
+      <input class="form-control" type="text" name= "name " >
+      <label>Email</label>
+      <input class="form-control" type="email" name = "email " >
+      <label>Message</label>
+      <textarea class="form-control" name="message " rows="5" cols="30"></textarea>
+    </div>
+    <button class="btn btn-primary" type="submit">Send Email</button>
+  </form>
+</div>
+<hr>
+<div class="social-media">
+  <h3>Get In Touch</h3>
+  <a class="footer-link" href="https://www.linkedin.com/in/samuel-abioye-bb9674208?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bl4J%2FfKVQQGWAIyF7e1rJAQ%3D%3D"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+  <a class="footer-link" href="https://twitter.com/AbioyeSamuel_4"><i class="ico-footer fa-brands fa-twitter"></i> Twitter</a>
+  <a class="footer-link" href="https://github.com/AbioyeSamuel"><i class="fa-brands fa-github"></i> GitHub</a>
+</div>
+<%- include("partials/footer"); -%>
